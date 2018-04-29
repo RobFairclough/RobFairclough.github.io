@@ -1,88 +1,111 @@
-<!doctype html>
-
-<html>
+<!DOCTYPE html>
+<html lang="en" >
 
 <head>
-	<meta charset = "UTF-8">
-	<meta author = "Rob Fairclough">
-	<link rel = "stylesheet"  href = "styles.css" />
-	<link rel = icon type = "image/png" href = "assets/icons/favicon.png"> <!--mockup favicon, temporary-->
-	<title> Rob's web</title>
-	
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto+Condensed" rel="stylesheet">
+      <link rel="stylesheet" href="css/style.css">
+
+  
 </head>
 
+
 <body>
-	<div class = grid-container> <!---start grid--->
-<!---Navigation bar--->
-		<nav class = "navigation">
-		
-			<ul>
-				<li class = "headerlink"> <a class = "headerlinks" href = "index.html"> Home   </a></li>	
-				<li class = "headerlink"> <a class = "headerlinks" href = "#about"> About   </a></li>
-				<li class = "headerlink"> <a class = "headerlinks" href = "#projects"> Projects   </a></li>
-		
-			</ul>
-		</nav>
-	
-<!---end Navigation--->	
-	
-<!---Heading--->
-		<div class = "heading">
-		
-				<h1> Welcome </h1>
-				<h2> Rob Fairclough's web portfolio </h2>
-		</div>
-	
-<!---end of heading--->	
+  <!--NAVBAR HEADER-->
+  <nav class="navbar navbar-dark bg-dark navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">RobFairclough.com</a>
+      </div>
+      <div>
+        <ul class="nav navbar-nav d-inline-block">
+          <li class="active nav-item"><a class="nav-link" href="#" target="_blank" id = "home-button">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" target="_blank" id = "portfolio-button">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" target="_blank" id = "contact-button">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--END HEADER-->
 
+  <!--MAIN GRID-->
+  <div class="container top-buffer" id = "home-link">
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-6">
+          <h5 class = "text-center">Aspiring web and software developer learning with FCC, hoping to work front and back end for web-based applications. </h5>
 
-<!---About me section--->
-		<div class = "about">
-			<h1 id = "about"> About me. </h1>
-			<div class = "picture"> <img id = "selfportrait" src = "assets/images/portrait.jpg" alt = "Rob"> </div>
-			<p> I'm Rob Fairclough, an aspiring developer based in Bury, North Manchester. I've built this site to serve as a CV or portfolio. </p>
-			<p> I'm able to work in HTML and CSS and am currently learning with FreeCodeCamp, CodeCademy and Harvard's CS50 course. </p>
-			<p> You can reach me via e-mail: <a href = "mailto:rob.a.fairclough@gmail.com">rob.a.fairclough@gmail.com</a>, or on social media: </p>
-			<ul class = "social" id = "aboutsocial">
-				<li><a href = "https://www.facebook.com/robfaircloughlol" class = "facebook"> Facebook </a> </li>
-				<li><a href= "https://www.twitter.com/robfairclough" class = "twitter"> Twitter </a> </li>
-				<li><a href = "https://www.instagram.com/robfairclough" class = "instagram"> Instagram </a> </li>
-				<li><a href = "https://www.github.com/robfairclough" class = "github"> GitHub </a> </li>
-				<li><a href = "mailto:rob.a.fairclough@gmail.com" class = "email"> E-mail </a> </li>
-				<!---# denotes placeholder links--->
-			</ul>
-		</div>
-		<div class = "projects">
-			<h1 id = "projects"	> Projects </h1>
-			<p> This section will showcase projects </p>
-			<div class = "project1">
-				<h2 class = "projectheading"> Web CV (this site!) </h2>
-				<p> This site is an ongoing HTML and CSS project that I intend to use as both a portfolio and a practice ground.</p>
-				<!---include badges of languages used html css maybe javascript later --->
-			</div>
-			<div class = "project2">
-				<h2 class = "projectheading"> Second project </h2>
-			</div>
-		</div>
-		
-<!---end about me--->
-		
-	</div> <!---end grid--->
-	
-	<nav class = footer> <!---Footer--->
-		
-		<ul class = "social" id = "footersocial">
-			<li class = "headerlink" id = "totop"><a class = "headerlinks" href = "#top"> Back to top </a> </li>
-			<li> <p class = "contact"> Contact Me: </p> </li>
-			<li><a href = "https://www.facebook.com/robfaircloughlol" class = "facebook social-link"> Facebook </a> </li>
-			<li><a href= "https://www.twitter.com/robfairclough" class = "twitter social-link"> Twitter </a> </li>
-			<li><a href = "https://www.instagram.com/robfairclough" class = "instagram social-link"> Instagram </a> </li>
-			<li><a href = "https://www.github.com/robfairclough" class = "github social-link"> GitHub </a> </li>
-			<li><a href = "mailto:rob.a.fairclough@gmail.com" class = "email social-link"> E-mail </a> </li>
-	</nav> 
-	<!---end footer--->
-	
+        </div>
+        <div class = "col-6">
+          <img src= "https://images.unsplash.com/photo-1442328166075-47fe7153c128?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=a0769e787bc7c46e2263bbe84173472c" class = "img-fluid portrait"></img>
+        </div>
+      </div>
+    </div>
+  <div class="row bg-dark" id = "portfolio-link">
+        <div class="col-xs-6">
+          <h2 class="text-xs-center text-primary" id = "portfolio-heading">Portfolio</h2> 
+        </div>
+      </div>
+  <div class = "jumbotron top-buffer">
+  
+    <div class = "row">
+      <p class = "text-xs-center mx-auto">Here are a number of projects I have worked on.</p>
+    </div>
+    <div class = "row">
+       <div class="col">
+         <img src = "https://images.unsplash.com/photo-1471943068829-26c1a4ac5bfa?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=2cc4391f303e66c109181cd6a37da648" class = "img-fluid">
+      </div>
+  <div class="col">
+    <img src = "https://images.unsplash.com/photo-1504593811423-6dd665756598?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=5919d6790b9ba44ef9733f9ea4c3e193" class = "img-fluid">
+      </div>
+  <div class="w-100"></div>
+  <div class="col">
+    <img src = "https://images.unsplash.com/photo-1489924309280-34282407eca2?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=8c36fd5e141a5397f682856a3f209189" class = "img-fluid">
+      </div>
+  <div class="col">
+        <img src = "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=5603a6bd11b6c0598f42327dfba28125" class = "img-fluid">
+      </div> 
+    </div>
+  </div>
+  <div class = "row bg-dark" id = "contact-link">
+    <h3 class = "text-center text-primary">Contact</h3>
+  </div>
+  <div class = "jumbotron">
+    <div class = "row">
+      <div class = "col-xs-4">
+        <p>Social links are available at the foot of the page, but for any specific enquiries you can reach me via e-mail at rob.a.fairclough@gmail.com or on mobile at ***********</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--FOOTER-->
+  <footer class="footer bg-dark">
+    <div class="container bg-dark">
+      <ul class="social">
+        <li><a href="#" class="fa fa-facebook" target="_blank"></a></li>
+        <li><a href="#" class="fa fa-twitter" target="_blank"></a></li>
+        <li><a href="#" class="fa fa-codepen" target="_blank"></a></li>
+        <li><a href="#" class="fa fa-github" target="_blank"></a></li>
+        <li><a href="#" class="fa fa-instagram" target="_blank"></a></li>
+
+      </ul>
+    </div>
+  </footer>
+
+  <!--END FOOTER-->
 </body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
 
 
 </html>
