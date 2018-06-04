@@ -18,20 +18,22 @@
 
 <body>
   <!--NAVBAR HEADER-->
-  <nav class="navbar navbar-dark bg-dark navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">RobFairclough.io</a>
-      </div>
-      <div>
-        <ul class="nav navbar-nav d-inline-block">
-          <li class="active nav-item"><a class="nav-link" href="#" target="_blank" id = "home-button">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#" target="_blank" id = "portfolio-button">Portfolio</a></li>
-          <li class="nav-item"><a class="nav-link" href="#" target="_blank" id = "contact-button">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <header>
+        <nav class="navbar navbar-dark bg-dark navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">RobFairclough.io</a>
+                </div>
+                <div>
+                    <ul class="nav navbar-nav d-inline-block">
+                        <li class="active nav-item"><a class="nav-link" href= "#home-link" id = "home-button">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href= "#portfolio-link" id = "portfolio-button">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact-link" id = "contact-button">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
   <!--END HEADER-->
 
   <!--MAIN GRID-->
@@ -39,7 +41,7 @@
     <div class="jumbotron">
       <div class="row">
         <div class="col-8">
-          <h5 class = "text-center">Aspiring developer learning with Free Code Camp, hoping to work front and back end for web-based applications. </h5>
+          <h5 class = "text-center">I'm Rob, an aspiring software developer learning with FreeCodeCamp, so far working with HTML, CSS and JavaScript. This is my portfolio, which will contain projects both from my studies and my own work. </h5>
 
         </div>
         <div class = "col-4">
@@ -58,14 +60,14 @@
     </div>
     <div class = "row">
        <div class="col">
-           <a href = "https://codepen.io/robfairclough/full/aGqmjV/"><img src = "https://i.imgur.com/32jFGWV.jpg" class = "img-fluid"></a>
+           <a href = "https://codepen.io/robfairclough/full/aGqmjV/" target ="_blank"><img src = "https://i.imgur.com/32jFGWV.jpg" class = "img-fluid project-thumbnail" alt = "Quote generator"></a>
       </div>
   <div class="col">
-      <a href = "https://codepen.io/robfairclough/full/RyBWXW/"><img src = "https://i.imgur.com/nqH2G40.jpg" class = "img-fluid"></a>
+      <a href = "https://codepen.io/robfairclough/full/RyBWXW/" target = "_blank"><img src = "https://i.imgur.com/nqH2G40.jpg" class = "img-fluid project-thumbnail" alt = "Local Weather app"></a>
       </div>
   <div class="w-100"></div>
   <div class="col">
-    <img src = "https://images.unsplash.com/photo-1489924309280-34282407eca2?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=8c36fd5e141a5397f682856a3f209189" class = "img-fluid">
+      <a href = "https://github.com/RobFairclough/JavaScript-Algorithms-FCC" target = "_blank"><img src = "https://i.imgur.com/iXikMkB.png" class = "img-fluid project-thumbnail" alt = "Javascript algorithms"></a>
       </div>
   <div class="col">
         <img src = "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=5603a6bd11b6c0598f42327dfba28125" class = "img-fluid">
@@ -84,8 +86,8 @@
   </div>
   </div>
   <!--FOOTER-->
-  <footer class="footer bg-dark">
-    <div class="container bg-dark">
+  <footer class="footer">
+    <div class="container" id = "social-link">
       <ul class="social">
         <li><a href="https://www.facebook.com/robfaircloughlol" class="fa fa-facebook" target="_blank"></a></li>
         <li><a href="https://www.twitter.com/robfairclough" class="fa fa-twitter" target="_blank"></a></li>
