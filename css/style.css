@@ -8,6 +8,11 @@ h1 h2 h3 h4 h5 {
 .top-buffer {
   margin-top: 10px;
 }
+.vertical-buffer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .navbar .container-fluid > .navbar-header {
   float: left;
   margin-right: 10px;

@@ -2,27 +2,31 @@
 <html lang="en" >
 
 <head>
-  <meta charset="UTF-8">
-  <title>Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto+Condensed" rel="stylesheet">
-      <link rel="stylesheet" href="css/style.css">
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
+    <script src="js/index.js"></script>
 
   
 </head>
 
 
 <body>
-  <!--NAVBAR HEADER-->
+    <!--NAVBAR HEADER-->
     <header>
         <nav class="navbar navbar-dark bg-dark navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">RobFairclough.io</a>
+                    <a class="navbar-brand" href="#">RobFairclough.github.io</a>
                 </div>
                 <div>
                     <ul class="nav navbar-nav d-inline-block">
@@ -34,85 +38,83 @@
             </div>
         </nav>
     </header>
-  <!--END HEADER-->
+    <!--END HEADER-->
 
-  <!--MAIN GRID-->
-    <div class="container top-buffer" id = "home-link">
+    <!--MAIN GRID-->
+    <div class="container bg-light top-buffer vertical-buffer" id = "home-link">
         <div class="jumbotron">
             <div class="row">
                 <div class = "col-12 col-md-4 mx-auto">
                     <img src= "https://i.imgur.com/jgzYu6A.jpg" class = "img-fluid portrait"></img>
                 </div>
                 <div class="col-12">
-                    <h5 class = "top-buffer text-center">I'm Rob, an aspiring software developer learning with FreeCodeCamp, so far working with HTML, CSS and JavaScript. This is my portfolio, which will contain projects both from my studies and my own work. </h5>
+                    <h5 class = "top-buffer text-center">I'm Rob, a software developer with command of HTML, CSS and JavaScript. This is my portfolio, which will contain projects both from my studies and my own work. </h5>
 
                 </div>
         
             </div>
         </div>
+    <!--Portfolio-->
     <div class="row bg-dark" id = "portfolio-link">
         <div class="col-xs-6">
             <h2 class="text-xs-center text-primary" id = "portfolio-heading">Portfolio</h2> 
         </div>
     </div>
-  <div class = "jumbotron ">
+    <div class = "jumbotron ">
+        <div class = "row">
+        <p class = "text-xs-center mx-auto">Here are a number of projects I have worked on. (placeholder images used while I build projects to fill this section.</p>
+        </div>
     <div class = "row">
-      <p class = "text-xs-center mx-auto">Here are a number of projects I have worked on. (placeholder images used while I build projects to fill this section.</p>
-    </div>
-    <div class = "row">
-       <div class="col">
-           <a href = "https://codepen.io/robfairclough/full/aGqmjV/" target ="_blank"><img src = "https://i.imgur.com/32jFGWV.jpg" class = "img-fluid project-thumbnail" alt = "Quote generator"></a>
-           <p class = "text-center project-text">Random Quote Generator</p>
-      </div>
-  <div class="col">
-      <a href = "https://codepen.io/robfairclough/full/RyBWXW/" target = "_blank"><img src = "https://i.imgur.com/7qyCEed.jpg" class = "img-fluid project-thumbnail" alt = "Local Weather app"></a>
-      <p class = "text-center project-text">Local Weather App</p>
-      </div>
-  <div class="w-100"></div>
-    <div class="col">
-        <a href = "https://github.com/RobFairclough/JavaScript-Algorithms-FCC" target = "_blank"><img src = "https://i.imgur.com/iXikMkB.png" class = "img-fluid project-thumbnail" alt = "Javascript algorithms"></a>
-        <p class = "text-center project-text">JavaScript Algorithm Challenges from FreeCodeCamp</p>
-    </div>
-    <div class="col">
-        <img src = "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=5603a6bd11b6c0598f42327dfba28125" class = "img-fluid">
-        <p class = "text-center project-text">Placeholder image</p>
+        <div class="col">
+            <a href = "https://codepen.io/robfairclough/full/aGqmjV/" target ="_blank"><img src = "https://i.imgur.com/32jFGWV.jpg" class = "img-fluid project-thumbnail" alt = "Quote generator"></a>
+            <p class = "text-center project-text">Random Quote Generator</p>
+        </div>
+        <div class="col">
+            <a href = "https://codepen.io/robfairclough/full/RyBWXW/" target = "_blank"><img src = "https://i.imgur.com/7qyCEed.jpg" class = "img-fluid project-thumbnail" alt = "Local Weather app"></a>
+            <p class = "text-center project-text">Local Weather App</p>
+        </div>
+        <div class="w-100"></div>
+            <div class="col">
+                <a href = "https://github.com/RobFairclough/JavaScript-Algorithms-FCC" target = "_blank"><img src = "https://i.imgur.com/iXikMkB.png" class = "img-fluid project-thumbnail" alt = "Javascript algorithms"></a>
+                <p class = "text-center project-text">JavaScript Algorithm Challenges from FreeCodeCamp</p>
+            </div>
+            <div class="col">
+                <img src = "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=5603a6bd11b6c0598f42327dfba28125" class = "img-fluid">
+                <p class = "text-center project-text">Placeholder image</p>
       
-    </div> 
+            </div> 
+        </div>
     </div>
-  </div>
-  <div class = "row bg-dark" id = "contact-link">
-    <h3 class = "text-center text-primary">Contact</h3>
-  </div>
-  <div class = "jumbotron">
-    <div class = "row">
-      <div class = "col-xs-4">
-        <p>Social links are available at the foot of the page, but for any specific enquiries you can reach me via e-mail at rob.a.fairclough@gmail.com or on mobile at ***********</p>
-      </div>
+    <!--End Portfolio-->
+    
+    <!--Contact section-->
+    <div class = "row bg-dark" id = "contact-link">
+        <h3 class = "text-center text-primary">Contact</h3>
     </div>
-  </div>
-  </div>
-  <!--FOOTER-->
-  <footer class="footer">
-    <div class="container" id = "social-link">
-      <ul class="social">
-        <li><a href="https://www.facebook.com/robfaircloughlol" class="fa fa-facebook" target="_blank"></a></li>
-        <li><a href="https://www.twitter.com/robfairclough" class="fa fa-twitter" target="_blank"></a></li>
-        <li><a href="https://www.codepen.io/robfairclough" class="fa fa-codepen" target="_blank"></a></li>
-        <li><a href="#" class="fa fa-github" target="_blank"></a></li>
-        <li><a href="https://www.instagram.com/robfairclough" class="fa fa-instagram" target="_blank"></a></li>
+    <div class = "jumbotron">
+        <div class = "row">
+            <p>Social links are available at the foot of the page, but for any specific enquiries you can reach me via e-mail at rob.a.fairclough@gmail.com</p>
+        </div>
+    </div>
+</div>
+    <!--End Contact section-->
+    
+    <!--FOOTER-->
+    <footer class="footer">
+            <div class="container" id = "social-link">
+                <ul class="social">
+                    <li><a href="https://www.facebook.com/robfaircloughlol" class="fa fa-facebook" target="_blank"></a></li>
+                    <li><a href="https://www.twitter.com/robfairclough" class="fa fa-twitter" target="_blank"></a></li>
+                    <li><a href="https://www.codepen.io/robfairclough" class="fa fa-codepen" target="_blank"></a></li>
+                    <li><a href="https://www.github.com/robfairclough" class="fa fa-github" target="_blank"></a></li>
+                    <li><a href="https://www.instagram.com/robfairclough" class="fa fa-instagram" target="_blank"></a></li>
+                </ul>
+            </div>
+    </footer>
 
-      </ul>
-    </div>
-  </footer>
-
-  <!--END FOOTER-->
+    <!--END FOOTER-->
 </body>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
 
-  
-
-    <script  src="js/index.js"></script>
 
 
 </html>
