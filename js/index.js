@@ -1,13 +1,8 @@
-$(document).ready(function () {
-    $( ".nav-link" ).click(function ( event ) {
-        event.preventDefault();
-        $(html, body).animate({ scrollTop: $($(this).attr("href")).offset().top }, 2000);
-    });
-});
+$(document).ready(function () {    
 
-/*$(document).ready(function(){
-    $( "a.scrollLink" ).click(function( event ) {
-        event.preventDefault();
-        $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
+    $( ".nav-link" ).click(function () {
+        var linkTo = $(this).attr('href');
+        $('html, body').animate({ scrollTop: $(linkTo).offset().top }, 2000);
     });
+
 });
