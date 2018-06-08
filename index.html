@@ -5,12 +5,17 @@
     <meta charset="UTF-8">
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+    
+    <link rel = "icon"
+          type = "img/png"
+          href = "https://i.imgur.com/j8z9MXL.png">
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200i,400" rel="stylesheet"> 
     <link rel="stylesheet" href="css/style.css">
+    
     
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
@@ -41,10 +46,13 @@
     <!--END HEADER-->
 
     <!--MAIN GRID-->
-    <div class="container bg-light top-buffer vertical-buffer" id = "home-link">
+    <div class="container bg-light top-buffer vertical-buffer round-edges" id = "home-link">
+        <div class = "row title-row">
+            <h2 class = "title" id = "intro-title">Rob Fairclough</h2>
+        </div>
         <div class="jumbotron">
             <div class="row">
-                <div class = "col-12 col-md-4 mx-auto">
+                <div class = "col-12 col-sm-8 col-md-6 col-l-4 mx-auto">
                     <img src= "https://i.imgur.com/jgzYu6A.jpg" class = "img-fluid portrait"></img>
                 </div>
                 <div class="col-12">
@@ -62,7 +70,7 @@
     </div>
     <div class = "jumbotron ">
         <div class = "row">
-        <p class = "text-xs-center mx-auto">Here are a number of projects I have worked on. (placeholder images used while I build projects to fill this section.</p>
+        <p class = "text-xs-center mx-auto">Here are a number of projects I have worked on. You can click on each image to view the project. (placeholder image used while I build projects to fill this section.)</p>
         </div>
     <div class = "row">
         <div class="col">
@@ -70,17 +78,17 @@
             <p class = "text-center project-text">Random Quote Generator</p>
         </div>
         <div class="col">
-            <a href = "https://codepen.io/robfairclough/full/RyBWXW/" target = "_blank"><img src = "https://i.imgur.com/7qyCEed.jpg" class = "img-fluid project-thumbnail" alt = "Local Weather app"></a>
+            <a href = "https://codepen.io/robfairclough/full/RyBWXW/" target = "_blank"><img src = "https://i.imgur.com/bFsT3MZ.jpg" class = "img-fluid project-thumbnail" alt = "Local Weather app"></a>
             <p class = "text-center project-text">Local Weather App</p>
         </div>
         <div class="w-100"></div>
             <div class="col">
-                <a href = "https://github.com/RobFairclough/JavaScript-Algorithms-FCC" target = "_blank"><img src = "https://i.imgur.com/iXikMkB.png" class = "img-fluid project-thumbnail" alt = "Javascript algorithms"></a>
+                <a href = "https://github.com/RobFairclough/JavaScript-Algorithms-FCC" target = "_blank"><img src = "https://i.imgur.com/DIYqZVh.jpg" class = "img-fluid project-thumbnail" alt = "Javascript algorithms"></a>
                 <p class = "text-center project-text">JavaScript Algorithm Challenges from FreeCodeCamp</p>
             </div>
             <div class="col">
-                <img src = "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=5603a6bd11b6c0598f42327dfba28125" class = "img-fluid">
-                <p class = "text-center project-text">Placeholder image</p>
+                <img src = "https://i.imgur.com/r27jiBE.jpg" class = "img-fluid project-thumbnail">
+                <p class = "text-center project-text">Placeholder</p>
       
             </div> 
         </div>
@@ -94,6 +102,7 @@
     <div class = "jumbotron">
         <div class = "row">
             <p>Social links are available at the foot of the page, but for any specific enquiries you can reach me via e-mail at rob.a.fairclough@gmail.com</p>
+            <br><p>My CV is available to view by clicking   <a id = "cv" href = "https://www.dropbox.com/s/iotb2qptfrlo4ba/Robert%20Fairclough%20CV%20June%202018.doc?dl=0" target = "_blank">here.</a></p>
         </div>
     </div>
 </div>
@@ -103,11 +112,12 @@
     <footer class="footer">
             <div class="container" id = "social-link">
                 <ul class="social">
-                    <li><a href="https://www.facebook.com/robfaircloughlol" class="fa fa-facebook" target="_blank"></a></li>
-                    <li><a href="https://www.twitter.com/robfairclough" class="fa fa-twitter" target="_blank"></a></li>
-                    <li><a href="https://www.codepen.io/robfairclough" class="fa fa-codepen" target="_blank"></a></li>
-                    <li><a href="https://www.github.com/robfairclough" class="fa fa-github" target="_blank"></a></li>
-                    <li><a href="https://www.instagram.com/robfairclough" class="fa fa-instagram" target="_blank"></a></li>
+                    <li id = "copyright">© Rob Fairclough 2018</li>
+                    <li><a href="https://www.facebook.com/robfaircloughlol" class="fa fa-facebook social" target="_blank"></a></li>
+                    <li><a href="https://www.twitter.com/robfairclough" class="fa fa-twitter social" target="_blank"></a></li>
+                    <li><a href="https://www.codepen.io/robfairclough" class="fa fa-codepen social" target="_blank"></a></li>
+                    <li><a href="https://www.github.com/robfairclough" class="fa fa-github social" target="_blank"></a></li>
+                    <li><a href="https://www.instagram.com/robfairclough" class="fa fa-instagram social" target="_blank"></a></li>
                 </ul>
             </div>
     </footer>

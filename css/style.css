@@ -5,6 +5,25 @@ body {
 h1 h2 h3 h4 h5 {
   font-family: "Roboto Condensed";
 }
+
+.title-row {
+    width: 100%;
+}
+
+.title {
+    font-family: "Raleway";
+    font-weight: 200;
+    font-style: italic;
+    position: relative;
+    float: left;
+    left: 2em;
+}
+
+
+.round-edges {
+    border-radius: 90px;
+}
+
 .top-buffer {
   margin-top: 10px;
 }
@@ -35,7 +54,7 @@ h1 h2 h3 h4 h5 {
   left: 0;
 }
 
-a.fa {
+a.fa.social {
   float: right;
   display: block;
   margin: 10px;
@@ -43,7 +62,7 @@ a.fa {
 
 ul.social {
   list-style-type: none;
-  margin: 0px;
+  margin    : 0px;
   padding: 0px;
 }
 li .fa {
@@ -54,12 +73,14 @@ li .fa {
   width: 15px;
 }
 
-.fa:hover {
-  color: white;
+#copyright {
+    font-size: 1em;
+    font-family: "Roboto Condensed";
+        
 }
 
-#copyright {
-  bottom: 5px;
+.fa:hover {
+  color: white;
 }
 
 .project-thumbnail {
