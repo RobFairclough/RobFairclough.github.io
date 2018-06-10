@@ -47,6 +47,18 @@ h1 h2 h3 h4 h5 {
 .portrait {
   border-radius: 90px;
 }
+
+.totop {
+    height: 25px;
+    width: 25px;
+}
+
+.topbtn {
+    position: relative;
+    bottom: 5px;
+    border-radius: 45px;
+    left: 5px;
+}
 .footer {
   position: relative;
   bottom: 0;
@@ -62,7 +74,7 @@ a.fa.social {
 
 ul.social {
   list-style-type: none;
-  margin    : 0px;
+  margin: 0px;
   padding: 0px;
 }
 li .fa {
@@ -76,7 +88,6 @@ li .fa {
 #copyright {
     font-size: 1em;
     font-family: "Roboto Condensed";
-        
 }
 
 .fa:hover {
