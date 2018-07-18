@@ -5,31 +5,9 @@ body {
 h1 h2 h3 h4 h5 {
     font-family: "Roboto Condensed";
 }
-
+/*Header CSS*/
 .title-row {
     width: 100%;
-}
-
-.title {
-    font-family: "Raleway";
-    font-weight: 200;
-    font-style: italic;
-    position: relative;
-    float: left;
-    left: 2em;
-}
-
-
-.round-edges {
-    border-radius: 90px;
-}
-
-.top-buffer {
-    margin-top: 10px;
-}
-.vertical-buffer {
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .navbar .container-fluid > .navbar-header {
@@ -44,6 +22,32 @@ h1 h2 h3 h4 h5 {
     float: left;
     margin-right: 5px;
 }
+.title {
+    font-family: "Raleway";
+    font-weight: 200;
+    font-style: italic;
+    position: relative;
+    float: left;
+    left: 2em;
+}
+/*End Header CSS*/
+/*General rules*/
+.round-edges {
+    border-radius: 90px;
+}
+
+.top-buffer {
+    margin-top: 10px;
+}
+.vertical-buffer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/*End General Rules*/
+
+/*Main Content CSS*/
 .portrait {
     border-radius: 90px;
 }
@@ -58,6 +62,14 @@ h1 h2 h3 h4 h5 {
     border-radius: 45px;
     left: 5px;
 }
+
+.project-thumbnail {
+    border: 2px solid black;
+    margin: 5px;
+}
+/*End Main Content CSS*/
+
+/*Footer CSS*/
 .footer {
     position: relative;
     bottom: 0;
@@ -92,8 +104,4 @@ li .fa {
 .fa:hover {
     color: white;
 }
-
-.project-thumbnail {
-    border: 2px solid black;
-    margin: 5px;
-}
+/*End Footer CSS*/
